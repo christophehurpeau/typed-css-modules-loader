@@ -1,6 +1,6 @@
 {
-  "name": "typed-css-modules-loader",
-  "version": "0.0.17",
+  "name": "@chrp/typed-css-modules-loader",
+  "version": "0.6.0",
   "description": "Webpack loader for typed-css-modules",
   "main": "index.js",
   "scripts": {
@@ -20,8 +20,13 @@
   "bugs": {
     "url": "https://github.com/olegstepura/typed-css-modules-loader/issues"
   },
+  "peerDependencies": {
+    "typed-css-modules": "^0.6.0"
+  },
   "dependencies": {
-    "loader-utils": "^1.1.0",
-    "typed-css-modules": "^0.3.6"
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "typed-css-modules": "^0.6.0"
   }
 }
