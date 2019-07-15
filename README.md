@@ -1,4 +1,6 @@
-# typed-css-modules-loader
+# @chrp/typed-css-modules-loader
+
+Fork of https://github.com/olegstepura/typed-css-modules-loader
 
 Simplest webpack loader for https://github.com/Quramy/typed-css-modules
 
