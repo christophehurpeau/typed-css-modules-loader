@@ -1,4 +1,4 @@
-# @chrp/typed-css-modules-loader
+# @ornikar/typed-css-modules-loader
 
 Fork of https://github.com/olegstepura/typed-css-modules-loader
 

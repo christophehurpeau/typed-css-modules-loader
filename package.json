@@ -1,5 +1,5 @@
 {
-  "name": "@chrp/typed-css-modules-loader",
+  "name": "@ornikar/typed-css-modules-loader",
   "version": "0.7.0",
   "description": "Webpack loader for typed-css-modules",
   "main": "index.js",
