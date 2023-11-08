@@ -1,5 +1,4 @@
 var DtsCreator = require('typed-css-modules').default;
-var loaderUtils = require('loader-utils');
 
 module.exports = function(source, map) {
   this.cacheable && this.cacheable();
@@ -9,7 +8,7 @@ module.exports = function(source, map) {
   // Pass on query parameters as an options object to the DtsCreator. This lets
   // you change the default options of the DtsCreator and e.g. use a different
   // output folder.
-  var options = loaderUtils.getOptions(this) || {};
+  var options = this.getOptions() || {};
   
   // Make sure to not modify options object directly
   var creatorOptions = Object.assign({}, options);
