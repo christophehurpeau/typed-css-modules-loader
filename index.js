@@ -10,7 +10,6 @@ module.exports = function(source, map) {
   // you change the default options of the DtsCreator and e.g. use a different
   // output folder.
   var options = loaderUtils.getOptions(this) || {};
-  var context = options.context || this.context || this.rootContext;
   
   // Make sure to not modify options object directly
   var creatorOptions = Object.assign({}, options);
